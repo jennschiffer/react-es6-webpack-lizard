@@ -1,6 +1,7 @@
 module.exports = {
   entry: __dirname + '/app/app.jsx',
   output: {
+    path: __dirname + '/build/',
     filename: 'bundle.js'
   },
   resolve: {
