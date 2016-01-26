@@ -14,7 +14,7 @@ also i have to say that to make this "hello world" app took several hours to do.
 in your terminal: `npm install`
 
 ## build and/or run
-* to just build, run `npm build`
+* to just build, run `npm run build`
 * to run in the browser and watch changes (thanks to `webpack-dev-server`), run `npm start` and go to `localhost:8080` in your browser
 
 ## questions
