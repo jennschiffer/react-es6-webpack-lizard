@@ -20037,16 +20037,16 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var NestServiceCatalog = function (_React$Component) {
-	  _inherits(NestServiceCatalog, _React$Component);
+	var HelloWorld = function (_React$Component) {
+	  _inherits(HelloWorld, _React$Component);
 
-	  function NestServiceCatalog() {
-	    _classCallCheck(this, NestServiceCatalog);
+	  function HelloWorld() {
+	    _classCallCheck(this, HelloWorld);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(NestServiceCatalog).apply(this, arguments));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(HelloWorld).apply(this, arguments));
 	  }
 
-	  _createClass(NestServiceCatalog, [{
+	  _createClass(HelloWorld, [{
 	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
@@ -20064,10 +20064,10 @@
 	    }
 	  }]);
 
-	  return NestServiceCatalog;
+	  return HelloWorld;
 	}(_react2.default.Component);
 
-	exports.default = NestServiceCatalog;
+	exports.default = HelloWorld;
 
 /***/ }
 /******/ ]);

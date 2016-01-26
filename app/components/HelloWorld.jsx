@@ -1,6 +1,6 @@
 import React from 'react';
 
-class NestServiceCatalog extends React.Component{
+class HelloWorld extends React.Component{
 
   render() {
     return (
@@ -12,4 +12,4 @@ class NestServiceCatalog extends React.Component{
 
 }
 
-export default NestServiceCatalog;
+export default HelloWorld;
