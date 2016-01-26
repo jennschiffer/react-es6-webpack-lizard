@@ -1,7 +1,10 @@
+var path = require('path');
+
 module.exports = {
-  entry: __dirname + '/app/app.jsx',
+  context : path.join(__dirname, './'),
+  entry: './app/app.jsx',
   output: {
-    path: __dirname + '/build/',
+    path: path.join(__dirname, 'build'),
     filename: 'bundle.js'
   },
   resolve: {
@@ -12,7 +15,7 @@ module.exports = {
       {
         test: /\.styl$/,
         loaders: ['style-loader','css-loader','stylus-loader'],
-        include: __dirname + '/app/css'
+        include: path.join(__dirname, 'app/css')
       },
       {
         test: /\.jsx?$/,
@@ -21,7 +24,7 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         },
-        include: __dirname + '/app'
+        include: path.join(__dirname, 'app')
       }
     ]
   }
