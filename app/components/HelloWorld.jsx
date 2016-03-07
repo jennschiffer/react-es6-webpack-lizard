@@ -9,7 +9,6 @@ class HelloWorld extends React.Component{
       </p>
     );
   }
-
 }
 
 export default HelloWorld;

@@ -11,6 +11,13 @@ module.exports = {
     extensions: ['', '.js', '.jsx','.styl']
   },
   module: {
+    preLoaders: [
+      {
+        test: /\.jsx?$/,
+        loaders: ['eslint-loader'],
+        include: path.join(__dirname, 'app'),
+      },
+    ],
     loaders: [
       {
         test: /\.styl$/,
