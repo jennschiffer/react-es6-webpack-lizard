@@ -2,4 +2,5 @@
 extends:
   - "./eslint/eslint-defaults.yaml"
   - "./eslint/eslint-node-commonjs.yaml"
+  - "./eslint/eslint-jsx.yaml"
   - "./eslint/eslint-es2015.yaml"
